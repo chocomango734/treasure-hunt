@@ -1,4 +1,3 @@
-
 # This program has the user move around a map to find treasures.
 # If the user hits a trap they lose, but if they find all seven treasures they win.
 
@@ -80,9 +79,6 @@ def read_map():
     returns:
         map_list: 2D list of the map
     """
-
-    # to make a randomized map: for each row number each position 0-6 randint treasure
-    # & trap, exclusive; for loop through each row incrementing counts, replace w T or X if randint
 
     map_list = []
     # read each line of the file and append it to the map key list
